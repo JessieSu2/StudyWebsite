@@ -1,0 +1,121 @@
+.timescreenbg{
+    background-image: url("../assets/TimeScreen.jpg");
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    opacity: .7;
+}
+body, html {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+
+.rect25but{
+    width: 15%;
+    height: 28%;
+    margin: 0;
+    position: absolute;
+    top:50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 196px;
+
+    background: linear-gradient(180deg, rgba(235, 187, 115, 0.7) 0%, rgba(255, 255, 255, 0.335) 100%);
+    border-radius: 88px;
+    border: none;
+}
+
+.rect25but .rect25text{
+    position: absolute;
+    margin: 0 auto;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+    font-family: 'Peaches For Breakfast';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.065em;
+
+    color: #000000;
+}
+.rect35but{
+    width: 15%;
+    height: 28%;
+    margin: 0;
+    position: absolute;
+    top:50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 787px;
+
+    background: linear-gradient(180deg, rgba(235, 187, 115, 0.7) 0%, rgba(255, 255, 255, 0.335) 100%);
+    border-radius: 88px;
+    border: none;
+}
+
+.rect35but .rect35text{
+    position: absolute;
+    margin: 0 auto;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+    font-family: 'Peaches For Breakfast';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.065em;
+
+    color: #000000;
+}
+.rect45but{
+    width: 15%;
+    height: 28%;
+    margin: 0;
+    position: absolute;
+    top:50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 1440px;
+
+    background: linear-gradient(180deg, rgba(235, 187, 115, 0.7) 0%, rgba(255, 255, 255, 0.335) 100%);
+    border-radius: 88px;
+    border: none;
+}
+
+.rect45but .rect45text{
+    position: absolute;
+    margin: 0 auto;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+    font-family: 'Peaches For Breakfast';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.065em;
+
+    color: #000000;
+}

@@ -1,0 +1,63 @@
+#TTSsvg {
+  position: absolute;
+  left: 50%;
+  top: 28%;
+}
+
+body, html {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.bg {
+  position: absolute;
+  z-index: -1;
+  background-image: url("../assets/HomeScreen.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  opacity: .7;
+}
+
+.startButton{
+  height: 87px;
+  width: 360px;
+  background: #CBF5FB;
+  box-shadow: 2px 6px 5px 2px rgba(0, 0, 0, 0.38);
+  border-radius: 160px;
+  border: none;
+  font-size: 36px;
+  font-family: "Peaches For Breakfast";
+  font-style: regular;
+  letter-spacing: 6px;
+  padding-top: 12px;
+  position: absolute;
+  bottom: 3%;
+  left: 42%;
+}
+
+.startButton:hover{
+  background-color: #fff8e4;
+  cursor: pointer;
+  text-decoration:underline #ffcfcf;
+}
+
+.startButton:active{
+  cursor: pointer;
+  background-color: rgb(255, 218, 148);
+}
+
+#beargif{
+  position: absolute;
+  left: 55%;
+  top: 35%;
+  width: 19%;
+  height: auto;
+  
+}
+/*# sourceMappingURL=main.css.map */
