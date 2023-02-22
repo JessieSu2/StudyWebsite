@@ -2,8 +2,8 @@
 
 .HomepageContainer{
     margin: 0; 
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     
 }
 
@@ -13,8 +13,8 @@
     background-position: center;
     background-size:cover;
     opacity: 0.8;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
 }
 
 .ButtonContainer{
@@ -49,19 +49,6 @@
     cursor: pointer;
 }
 
-.BearContainer{
-    display: grid;
-    align-items: center;
-}
-
-
-.Bear{
-    width: 50px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
 
 
 /* Responsive

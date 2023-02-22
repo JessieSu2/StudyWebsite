@@ -19,7 +19,7 @@ function HomePage(){
                 </div>
 
                 <div className='BearContainer'>
-                    <img className="Responsive" src = {TimeToStudy} alt="TimeToStudy"/>
+                    <img className="TimeSVG" src = {TimeToStudy} alt="Text: Time To Study"/>
                     <img className="Bear" src = {bear} alt="Bear pouring coffee"/>
                 </div>
             </div>
